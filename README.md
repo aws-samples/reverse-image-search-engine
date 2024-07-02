@@ -54,7 +54,7 @@ To build out this implementation, follow each step outlined below:
 }
 ```
 
-5. Ensure the Amazon OpenSearch Serverless collection has read/write data access enabled for the Amazon SageMaker execution role principal. More information [here](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-data-access.html)
+5. Ensure the Amazon OpenSearch Serverless collection has read/write data access enabled for the Amazon SageMaker execution role principal. More information can be found [here](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-data-access.html).
 6. Run each cell in the notebook to create embeddings, ingest the embeddings, extract out a particular labelled object from a test image you upload, and perform a reverse image search.
 
 ## Clean Up
