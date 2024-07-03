@@ -14,7 +14,7 @@ The solution design consists of three main phases: data indexing, object detecti
 
 1. **Upload data to Amazon S3:** Store the product images in S3.
 2. **Generate embeddings:** Use the Amazon Titan Multimodal Embeddings model to generate embeddings for the stored images.
-3. **Store smbeddings:** Ingest the generated embeddings into an Amazon OpenSearch Serverless index, which serves as the vector store for the solution.
+3. **Store embeddings:** Ingest the generated embeddings into an Amazon OpenSearch Serverless index, which serves as the vector store for the solution.
 4. **Image analysis and extraction:** Use Amazon Rekognition to analyze the product images and extract labels and bounding boxes for these images. 
 5. **Convert image search query to an embedding:** Convert the user's image search query into an embedding using the Amazon Titan Multimodal Embeddings model.
 6. **Run similarity search:** Perform a K-nearest neigbours similarity search on the vector database (Amazon OpenSearch Serverless) to find product images that closely match the image query embedding.
