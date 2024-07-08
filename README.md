@@ -35,7 +35,7 @@ To build out this implementation, follow each step outlined below:
 
 1. Clone this repository into your Amazon SageMaker Studio Notebook.
 2. Navigate to the reverse-image-search-engine.ipynb notebook
-3. Download the [UT Zappos50K](https://vision.cs.utexas.edu/projects/finegrained/utzap50k/) (291MB) dataset and open the Nike folder in the Sneakers and Athletic Shoes subfolder within the Shoes folder. Alternatively, you could upload your own image dataset to the Amazon S3 bucket. To upload the images to your S3 bucket, run the following command:
+3. Download the [UT Zappos50K](https://vision.cs.utexas.edu/projects/finegrained/utzap50k/) (291MB) dataset and open the Nike folder in the Sneakers and Athletic Shoes subfolder within the Shoes folder. Alternatively, you could upload your own image dataset to the Amazon S3 bucket. To upload the images to your S3 bucket using the AWS CLI, run the following command on your terminal:
 
 `aws s3 cp /path/to/local/folder s3://your-bucket-name/ —recursive`
 
